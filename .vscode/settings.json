@@ -1,0 +1,5 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "oxc.oxc-vscode"
+}

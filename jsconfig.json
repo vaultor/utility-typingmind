@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Can use modern JS syntax
+    "module": "ESNext", // Use import/export statements
+    "lib": [ // APIs that exist at runtime
+      "ES2022",
+      "DOM",
+      "DOM.Iterable",
+    ],
+    "moduleResolution": "node10",
+    "checkJs": true,
+    "allowJs": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "**/*.js",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
