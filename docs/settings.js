@@ -1,7 +1,7 @@
 const HUE = 0
 const BODY_COLOR = "oklch(0.215 0 0)"
 const WORK_COLOR = `oklch(0.220 0.002 ${HUE})` // workspace background
-const SIDE_COLOR = `oklch(0.225 0.002 ${HUE})` // sidebar background
+const SIDE_COLOR = `oklch(0.225 0.001 ${HUE})` // sidebar background
 const CODE_COLOR = `oklch(0.248 0.002 ${HUE})` // code background
 const HOVE_COLOR = `oklch(0.255 0.002 ${HUE})` // hover background
 const CHAT_COLOR = `oklch(0.280 0.001 ${HUE})` // chat background
@@ -148,7 +148,7 @@ const cssRules = {
   `,
 }
 
-const version = "20260807.002"
+const version = "20260807.005"
 const style = /** @type {HTMLLinkElement} */ (document.querySelector("link[data-n-g]")).sheet
 
 try {
