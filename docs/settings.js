@@ -41,7 +41,7 @@ const cssRules = {
       letter-spacing: 0.01em;
       -webkit-font-smoothing: antialiased;
 
-      --sidebar-color: ${WORK_COLOR} !important;
+      --sidebar-color: ${SIDE_COLOR} !important;
       --popup-color: ${WORK_COLOR} !important;
       --workspace-color: ${WORK_COLOR} !important;
       --main-dark-color: ${WORK_COLOR} !important;
