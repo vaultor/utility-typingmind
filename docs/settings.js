@@ -41,7 +41,6 @@ const cssRules = {
       letter-spacing: 0.01em;
       -webkit-font-smoothing: antialiased;
 
-      --sidebar-menu-color: ${SIDE_COLOR} !important;
       --sidebar-color: ${WORK_COLOR} !important;
       --popup-color: ${WORK_COLOR} !important;
       --workspace-color: ${WORK_COLOR} !important;
@@ -149,7 +148,7 @@ const cssRules = {
   `,
 }
 
-const version = "20260807.001"
+const version = "20260807.002"
 const style = /** @type {HTMLLinkElement} */ (document.querySelector("link[data-n-g]")).sheet
 
 try {
