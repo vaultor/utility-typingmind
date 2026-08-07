@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "target": "ES2022", // Can use modern JS syntax
-    "module": "ESNext", // Use import/export statements
+    "module": "nodenext", // Use import/export statements
     "lib": [ // APIs that exist at runtime
       "ES2022",
       "DOM",
       "DOM.Iterable",
     ],
-    "moduleResolution": "node10",
+    "moduleResolution": "nodenext",
     "checkJs": true,
     "allowJs": true,
     "strict": false,
