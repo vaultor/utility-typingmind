@@ -42,7 +42,7 @@ const cssRules = {
       -webkit-font-smoothing: antialiased;
 
       --sidebar-menu-color: ${SIDE_COLOR} !important;
-      --sidebar-color: ${SIDE_COLOR} !important;
+      --sidebar-color: ${WORK_COLOR} !important;
       --popup-color: ${WORK_COLOR} !important;
       --workspace-color: ${WORK_COLOR} !important;
       --main-dark-color: ${WORK_COLOR} !important;
